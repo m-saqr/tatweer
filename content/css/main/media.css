@@ -1,0 +1,258 @@
+@media (max-width:1200px){
+    .navbar{
+    height:97px;
+
+    }
+
+
+.navbar .container .navbar-brand img{
+    width: 144px;
+    height: 35px;
+    }
+
+
+.nav-mob{
+    display: none;
+   }
+
+.banner .all_content .content__banner .point {
+    font-size:0.875rem ;
+}
+
+.banner .all_content .content__banner .p1__banner{
+    font-size: 1.75rem;
+}
+
+.banner .all_content .content__banner .p2__banner{
+    font-size:0.875rem ;
+}
+
+.banner .all_content .img__banner img{
+    width: 118px;
+    height: 286px;
+
+}
+
+.banner .all_content .content__banner .point2{
+    font-size: 1rem;
+}
+
+.banner .all_content .content__banner .point2 svg{
+    width:25px;
+    height:25px;
+}
+
+.banner .all_content .img__banner .div1__banner .img2__one{
+    top: 10px;
+}
+
+.right__footer{
+    display: none;
+}
+
+footer .content__footer .top__footer img{
+    width: 129px;
+    height: 32px;
+
+}
+
+footer .content__footer .top__footer .join{
+    font-size: 12px;
+
+}
+
+footer .content__footer .top__footer .started2{
+    font-size: 14px;
+    padding: 8px 16px 9px 14px;
+}
+
+footer .content__footer .bottom__footer .center__footer .links__footer ul li a {
+    font-size: 14px;
+}
+
+footer .content__footer .bottom__footer .center__footer .social__footer h3{
+    display: none;
+}
+
+footer .content__footer .bottom__footer .center__footer .social__footer .social__element a{
+    width: 32px;
+    height: 32px;
+    border-radius: 5px 0;
+
+}
+
+footer .content__footer .bottom__footer .center__footer .social__footer .social__element svg{
+    font-size: 0.80rem;
+}
+
+
+footer .content__footer .bottom__footer .left__footer p{
+    font-size: 14px;
+}
+
+footer .content__footer .bottom__footer .left__footer img{
+    width: 375px;
+    height: 103px;
+}
+
+}
+
+/* media 992px */
+
+@media ( max-width:992px){
+.navbar{
+    height:64px;
+    }
+.navbar .container .navbar-brand {
+    display: none;
+}
+    .nav-mob{
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+
+    .nav-mob .logo__mob img{
+        width: 93px;
+        height: 23px;
+    }
+
+    .banner{
+        padding:2.5rem 0 ;
+    }
+    .banner .all_content .img__banner img{
+        width: 90px;
+        height: 217px;
+    
+    }
+
+    .right__footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+
+    .social__footer{
+      display: none;
+    }
+    
+.banner .all_content{
+    flex-direction:column-reverse;
+}
+
+.banner .all_content .img__banner{
+    width: 70%;
+    margin: auto;
+    justify-content: center;
+}
+
+.banner .all_content .content__banner{
+    width: 100%;
+}
+
+.banner .all_content .content__banner .point{
+    display: none;
+}
+
+.banner .all_content .img__banner .div1__banner .img2__one{
+    top: 10px;
+}
+
+.banner .all_content .img__banner .div1__banner .img__one{
+    margin-right: 15px;
+}
+
+.banner .all_content .img__banner .div2__banner .img__two{ 
+    margin-right: 15px;
+}
+
+.banner .all_content .content__banner{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.banner .all_content .content__banner .p2__banner{
+    font-size: 1rem;
+}
+
+.banner .all_content .content__banner .point2{
+    font-size: 1rem;
+}
+
+footer{
+    height: 100%;
+}
+
+footer .content__footer .top__footer{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .content__footer .bottom__footer{
+    text-align: center;
+
+}
+
+ footer .content__footer .top__footer .top__list{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 24px;
+}
+
+footer .content__footer .top__footer .started2{
+    width: 150px;
+    margin-top: 8px;
+}
+
+footer .content__footer .bottom__footer{
+    flex-direction: column;
+}
+
+
+footer .content__footer .bottom__footer .left__footer img{
+     width:80% ;
+     margin: auto;
+    height: 91px;
+    margin-top: 20px;
+}
+
+footer .content__footer .bottom__footer .left__footer h3{
+    text-align: center;
+}
+
+footer .content__footer .bottom__footer .left__footer p{
+    text-align: center;
+    width: 98%;
+    margin: auto;
+
+
+}
+
+footer .content__footer{
+    width: 90%;
+}
+
+footer .content__footer .bottom__footer .left__footer {
+    display: flex;
+    flex-direction: column;
+}
+
+
+footer .content__footer .bottom__footer .center__footer .links__footer {
+    margin-top: 20px;
+}
+
+.social__footer2{
+display: block;
+}
+
+.social__2{
+display: none;
+}
+}
