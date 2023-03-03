@@ -95,6 +95,55 @@ footer .content__footer .bottom__footer .left__footer img{
     height: 103px;
 }
 
+.section-two .content__section2  .top__section2 h3{
+    font-size: 24px;
+}
+
+.section-two .content__section2  .top__section2 p{
+    font-size: 1rem;
+}
+
+.section-two .content__section2  .top__section2 .nav__tab .list__navtab li a{
+    padding: 8px 16px;
+}
+
+.section-two .content__section2  .top__section2 .nav__tab{
+    width: 55%;
+}
+
+.section-two .content__section2  .bottom__section2 .last__one{
+    display: none;
+}
+
+.section-two .content__section2  .bottom__section2 .card___section2 .card p{
+    display: none;
+}
+
+
+.section__five .content__section5{
+    flex-direction: column;
+}
+
+.section__five .content__section5 p{
+font-size:1rem;
+margin-top: 20px;
+}
+
+.section-three .content__section3  .bottom__section3 .last__one{
+    display: none;
+}
+
+.section-four .content__section4 .item1{
+    display: none;
+
+}
+
+.section-four  .content2__section4 .right__side__section4 .img1{
+    height: 350px;
+}
+.section-four  .content2__section4 .left__side__section4 div p{
+    font-size: 0.8rem;
+}
 }
 
 /* media 992px */
@@ -255,4 +304,185 @@ display: block;
 .social__2{
 display: none;
 }
+
+.section-one {
+    height: 100%;
+    padding: 6.25rem 0;
+}
+
+.section-one .content__section1{
+    display: block;
+}
+
+.section-one .content__section1 .item__section1:not(:last-child){
+    margin-bottom:6.25rem ;
+}
+
+.section-one .content__section1 .item__section1 p{
+    font-size: 0.8rem;
+}
+
+
+.section-two .content__section2  .bottom__section2{
+    flex-direction: column;
+}
+
+.section-two .content__section2  .top__section2 .nav__tab{
+    display: none;
+}
+
+.section-two .content__section2  .bottom__section2  .top__section2__media{
+    display: block;
+}
+
+.top__section2{
+display: none;
+}
+
+.section-two .content__section2  .bottom__section2 .card___section2:not(:last-child) {
+    margin-bottom: 54px;
+}
+
+.section-two .content__section2  .bottom__section2  .card___section2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section-three .content__section3  .bottom__section3{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.section-three .content__section3  .bottom__section3 .card___section3:not(:last-child) {
+    margin-bottom: 54px;
+}
+.section-two .content__section2  .bottom__section2 .last__one{
+    display: none;
+}
+
+.section-four .content__section4{
+    flex-direction: column;
+
+}
+
+.section-four .content__section4   .item1{
+    display: block;
+}
+
+.section-four .content__section4  .item2 , .section-four .content__section4  .item3{
+    display: flex;
+    flex-direction: row;
+}
+
+.section-four .content__section4  .item__section4  .item__content{
+    flex-direction: column;
+    margin-top: 20px;
+    height: 170px;
+    width: 48%;
+    
+}
+
+
+.section-four .content__section4  .item__section4  .item__content img{
+    width: 30px;
+    height: 30px;
+}
+
+.section-four .content__section4  .item__section4  .item__content div h3{
+    font-size: 1rem;
+}
+
+.section-four .content__section4  .item__section4  .item__content div p{
+    font-size: 0.70rem;
+}
+
+.section-four .content__section4{
+    justify-content: center;
+}
+
+.section-four .content__section4   .item1 h2{
+    font-size: 1.30rem;
+}
+
+.section-four .content__section4   .item1 p{
+    font-size: 1rem;
+}
+
+.section-four  .content2__section4 .right__side__section4 .img1{
+   display: none;
+}
+
+.section-four  .content2__section4 .left__side__section4 .local{
+    display: flex;
+    align-items: center;
+}
+
+.section-four  .content2__section4 .left__side__section4 .img2{
+    display: block;
+    width: 182px;
+    height: 199px;
+    position: relative;
+    right: 10%;
+
+
+}
+
+.section-four  .content2__section4{
+    flex-direction: column;
+    height: 100%;
+    justify-content: start;
+    align-items: start;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+.section-four  .content2__section4 .left__side__section4{
+    margin-left: 20px;
+}
+
+.section-four  .content2__section4 .left__side__section4 a{
+    height: 43px;
+}
+
+.section-four  .content2__section4 .left__side__section4 h2{
+    font-size: 1.25rem;
+}
+
+.section-four  .content2__section4 .left__side__section4 div p{
+    font-size: 0.50rem;
+    font-weight: 300;
+}
+
+.section-four  .content2__section4 .left__side__section4 div img{
+    width:  25px;
+    height: 25px;
+    margin-right:5px;
+}
+.section-four  .content2__section4 .left__side__section4  a{
+    width: 100px;
+}
+
+.local a{
+    display: none;
+}
+
+ .img3{
+    display: block;
+    width: 182px !important;
+    height: 199px !important ;
+    position: absolute;
+    right: -2%;
+
+}
+
+.section__five .content__section5 p{
+    font-size: 14px;
+    margin-left: 0;
+}
+
 }
